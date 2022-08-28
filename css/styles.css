@@ -25,6 +25,11 @@ body {
     text-align: center;
     color: white;
 }
+.contenido-index h1 {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ce2b0c;
+}
 
 .contenido-index h3 {
     font-weight: 600;
@@ -209,6 +214,7 @@ body {
         width: 150px;
     }
 }
+
 @media (max-width: 390px) {
     .contenido-index {
         padding-top: 100px;
@@ -239,7 +245,12 @@ body {
         color: #ce2b0c;
     }
 }
-
+@media (max-width: 768px) {
+    .contenido-index{
+        padding-top: 150px;
+        height: 78vh;
+    }
+}
 @media (min-width: 768px) {
     .footer a:hover {
         color: #c7cc00;
