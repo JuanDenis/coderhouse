@@ -201,6 +201,14 @@ body {
 }
 
 /* Medias query */
+@media (max-width: 360px) {
+    .formulario {
+        width: 20vh;
+    }
+    #beneficio{
+        width: 150px;
+    }
+}
 @media (max-width: 390px) {
     .contenido-index {
         padding-top: 100px;
