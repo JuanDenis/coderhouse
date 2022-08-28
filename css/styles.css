@@ -20,12 +20,27 @@ body {
     align-items: center
 }
 
+/* Index */
+.contenido-index {
+    text-align: center;
+    color: white;
+}
+
+.contenido-index h3 {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+}
+
+.contenido-index li {
+    list-style: none;
+}
+
 /* Contenido */
 .contenido {
     text-align: center;
     color: white;
 }
-
 .contenido h1 {
     font-weight: 700;
     text-transform: uppercase;
@@ -43,7 +58,6 @@ body {
 }
 
 .boton-index {
-    margin-bottom: 513px;
     box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.45);
 }
 
@@ -75,13 +89,10 @@ body {
     justify-content: space-around;
 }
 
-/* Servers */
-.row-servers {
-    padding-top: 75px;
-    padding-bottom: 80px;
-}
-
 /* Información */
+.staff{
+    height: 100vh;
+}
 .staff h2 {
     color: #ce2b0c;
     text-transform: uppercase;
@@ -102,7 +113,6 @@ body {
 .usuarios {
     text-align: center;
     margin-left: 20px;
-    padding-bottom: 71px;
 }
 
 .usuarios a {
@@ -192,6 +202,13 @@ body {
 
 /* Medias query */
 @media (max-width: 390px) {
+    .contenido-index {
+        padding-top: 100px;
+        height: 75vh;
+    }
+    .container {
+        height: 200vh;
+    }
     .formulario {
         width: 40vh;
     }
@@ -207,6 +224,12 @@ body {
     .btn-warning {
         margin: 55px;
     }
+
+    .contenido-index h1 {
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ce2b0c;
+    }
 }
 
 @media (min-width: 768px) {
@@ -214,9 +237,61 @@ body {
         color: #c7cc00;
         transition: .9s;
     }
-
+    .contenido{
+        padding-top: 90px;
+    }
+    .container {
+        height: 100vh;
+        padding-top: 120px;
+        padding-bottom: 50px;
+    }
     .card:hover {
         transform: scale(1.1);
         transition: .3s;
+    }
+    .contenido-index{ 
+        padding-top: 150px;
+        height: 78vh;
+    }
+    .contenido-index h1 {
+        color: #ce2b0c;
+        text-transform: uppercase;
+        top: 50%;
+        width: 24em;
+        margin: 0 auto;
+        border-right: 2px solid rgba(255, 255, 255, .75);
+        font-size: 40px;
+        font-weight: 700;
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+        transform: translateY(-50%);
+    }
+
+    /* Animación */
+    .anim-typewriter {
+        animation: typewriter 2s steps(14) 1s 1 normal both,
+            blinkTextCursor 500ms steps(44) infinite normal;
+    }
+
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 8em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: rgba(255, 255, 255, .75);
+    }
+
+    to {
+        border-right-color: transparent;
     }
 }
