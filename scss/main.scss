@@ -1,0 +1,44 @@
+// Body
+body {
+    background-image: url(https://res.cloudinary.com/vaerdi/image/upload/v1660779853/overpass_qgqbx7.jpg);
+    background-size: 100%;
+    font-family: Poppins, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@import './secciones/nav-footer';
+@import './secciones/index';
+@import './secciones/cards';
+@import './secciones/informacion';
+@import './secciones/form';
+// Contenido
+.contenido{
+    text-align: center;
+    color: white;
+    h1{
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ce2b0c;
+    }
+    h3{
+        font-weight: 600;
+        text-transform: uppercase;
+        color: white;
+    }
+    li{
+        list-style: none;
+    }
+    .info{
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .contenido{
+        padding-top: 90px;
+    }
+}

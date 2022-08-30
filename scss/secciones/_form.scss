@@ -1,0 +1,43 @@
+//  Formulario
+.formulario {
+    background-color: RGBA(0, 0, 0, 0.85);
+    width: 450px;
+    margin: 0 auto;
+    border-radius: 75px;
+    padding: 40px;
+    margin-bottom: 50px;
+    box-shadow: 5px 5px 5px RGBA(0, 0, 0, 0.45);
+    label {
+        color: white;
+    }
+    textarea{
+        resize: none;
+    }
+    select{
+        margin: 5px;
+    }
+    input{
+        border-radius: 10px;
+        font-size: 15px;
+        margin-top: 0px;
+    }
+    .terminos{
+        margin-left: 5px;
+    }
+    .frm{
+        margin-top: 100px;
+    }
+}
+
+//Media querys
+@media (max-width: 390px) {
+    .formulario {
+        width: 40vh;
+        textarea{
+            width: 180px;
+        }
+    }
+    .btn-warning {
+        margin: 55px;
+    }
+}

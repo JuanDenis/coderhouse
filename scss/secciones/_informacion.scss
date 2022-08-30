@@ -1,0 +1,32 @@
+// Información
+.staff{
+    height: 100vh;
+    h2{
+        color: #ce2b0c;
+        text-transform: uppercase;
+        font-weight: 600;
+        text-align: center;
+    }
+    .avatares{
+        text-align: center;
+    }
+    img{
+        border-radius: 100px;
+        margin: 15px;
+        box-shadow: 5px 5px 5px RGBA(0, 0, 0, 0.45);
+    }
+    .usuarios{
+        text-align: center;
+        margin-left: 20px;
+    }
+    a{
+        color: black;
+    }
+    .btn-warning {
+        margin: 80px;
+    }
+    .info {
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+}

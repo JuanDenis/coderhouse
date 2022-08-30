@@ -1,0 +1,93 @@
+// Index
+.contenido-index{
+    text-align: center;
+    color: white;
+    h1{
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ce2b0c;
+    }
+    h3{
+        font-weight: 600;
+        text-transform: uppercase;
+        color: white;
+    }
+    li{
+        list-style: none;
+    }
+    .boton-index{
+        box-shadow: 5px 5px 5px RGBA(0, 0, 0, 0.45);
+    }
+    .btn a {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+//Media querys
+@media (max-width: 390px) {
+    .contenido-index {
+        padding-top: 100px;
+        height: 75vh;
+        h1{
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #ce2b0c;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .contenido-index{
+        padding-top: 150px;
+        height: 78vh;
+    }
+}
+
+@media (min-width: 768px) {
+    .contenido-index{ 
+        padding-top: 150px;
+        height: 78vh;
+        h1{
+            color: #ce2b0c;
+            text-transform: uppercase;
+            top: 50%;
+            width: 24em;
+            margin: 0 auto;
+            border-right: 2px solid rgba(255, 255, 255, .75);
+            font-size: 40px;
+            font-weight: 700;
+            text-align: center;
+            white-space: nowrap;
+            overflow: hidden;
+            transform: translateY(-50%);
+        }
+    }
+
+    /* Animación */
+    .anim-typewriter {
+    animation: typewriter 2s steps(14) 1s 1 normal both,
+    blinkTextCursor 500ms steps(44) infinite normal;
+    }
+    
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 8em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: rgba(255, 255, 255, .75);
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+}

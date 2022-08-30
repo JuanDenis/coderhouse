@@ -1,0 +1,43 @@
+// Navegación
+.navbar {
+    img {
+        width: 180px;
+    }
+    .container-fluid{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center
+    }
+}
+
+// Footer
+.footer {
+    background-color: RGBA(33, 37, 41, var(--bs-bg-opacity, 1));
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+    li {
+        display: inline;
+        margin: 10px;
+    }
+    span {
+        color: white;
+        text-decoration: none;
+    }
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .footer a:hover {
+        color: #c7cc00;
+        transition: .9s;
+    }
+}
+

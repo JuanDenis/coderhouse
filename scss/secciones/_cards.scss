@@ -1,0 +1,44 @@
+//Cards 
+.container{
+    .row{
+        padding-top: 15px;
+        padding-bottom: 44px;
+        justify-content: space-around;
+    }
+    .card {
+        height: 350px;
+        background-color: #212529;
+        color: white;
+        border-radius: 20px;
+        box-shadow: 5px 5px 5px RGBA(0, 0, 0, 0.45);
+        img {
+            margin-top: 10px;
+        }
+        .card-body{
+            height: 50px;
+        }
+    }
+}
+
+//Media query
+
+@media (max-width: 390px) {
+    .container {
+        height: 240vh;
+        .card{
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        height: 100vh;
+        padding-top: 120px;
+        padding-bottom: 50px;
+        .card:hover{
+            transform: scale(1.1);
+            transition: .3s;
+        }
+    }
+}
