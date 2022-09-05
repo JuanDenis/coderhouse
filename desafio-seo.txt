@@ -1,0 +1,19 @@
+Keywords:
+-Index: csgo, counter strike, argentina, gaming
+-VIP: vip, beneficios, !ws !gloves !knife
+-Servidores: servidores, serves, csgo, counter strike
+-Información: informacion, staff, csgo
+-Contacto: contacto, soporte, ayuda, csgo
+
+Descriptions:
+-Index: "Comunidad Argentina de Servidores de CS:GO."
+-VIP: "Con la membresía VIP podés tener acceso a diferentes Beneficios."
+-Servidores: "Servidores que tenemos disponibles actualmente."
+-Información: "Información sobre como surge la Comunidad."
+-Contacto: "Completa el formulario de contacto para recibir ayuda."
+
+Titulos:
+-Agregué un título diferente para cada sección
+
+Multimedia:
+- Reduje el peso de las imágenes

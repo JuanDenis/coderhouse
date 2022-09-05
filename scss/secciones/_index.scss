@@ -1,16 +1,16 @@
 // Index
 .contenido-index{
     text-align: center;
-    color: white;
+    color: $blanco;
     h1{
         font-weight: 700;
         text-transform: uppercase;
-        color: #ce2b0c;
+        color: $rojo;
     }
     h3{
         font-weight: 600;
         text-transform: uppercase;
-        color: white;
+        color: $blanco;
     }
     li{
         list-style: none;
@@ -19,7 +19,7 @@
         box-shadow: 5px 5px 5px RGBA(0, 0, 0, 0.45);
     }
     .btn a {
-        color: white;
+        color: $blanco;
         text-decoration: none;
     }
 }
@@ -32,7 +32,7 @@
         h1{
             font-weight: 700;
             text-transform: uppercase;
-            color: #ce2b0c;
+            color: $rojo;
         }
     }
 }
@@ -49,7 +49,7 @@
         padding-top: 150px;
         height: 78vh;
         h1{
-            color: #ce2b0c;
+            color: $rojo;
             text-transform: uppercase;
             top: 50%;
             width: 24em;

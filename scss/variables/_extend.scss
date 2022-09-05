@@ -1,0 +1,21 @@
+//Extend
+%contenidoPrincipal{
+    color: $blanco;
+    text-align: center;
+}
+%contenidoFooter {
+    background-color: RGBA(33, 37, 41, var(--bs-bg-opacity, 1));
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+}
+
+//Mixin
+@mixin estiloTexto($color, $size){
+    color: $color;
+    font-size: $size;
+    text-align: center;
+}
