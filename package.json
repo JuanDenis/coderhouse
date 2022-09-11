@@ -5,6 +5,7 @@
   },
   "name": "Vaerdi Servers CSGO",
   "version": "1.0.0",
+  "description": "Web para Servidores Comunitarios de CS:GO hosteados en Argentina.",
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
@@ -21,6 +22,5 @@
   "bugs": {
     "url": "https://github.com/JuanDenis/coderhouse/issues"
   },
-  "homepage": "https://github.com/JuanDenis/coderhouse#readme",
-  "description": "Web para Servidores Comunitarios de CS:GO hosteados en Argentina."
+  "homepage": "https://github.com/JuanDenis/coderhouse#readme"
 }
