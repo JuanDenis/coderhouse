@@ -3,7 +3,7 @@
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.19"
   },
-  "name": "bootstrap_coderhouse",
+  "name": "Vaerdi Servers CSGO",
   "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {},
@@ -14,13 +14,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JuanDenis/bootstrap_coderhouse.git"
+    "url": "git+https://github.com/JuanDenis/coderhouse.git"
   },
-  "author": "",
+  "author": "khy",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JuanDenis/bootstrap_coderhouse/issues"
+    "url": "https://github.com/JuanDenis/coderhouse/issues"
   },
-  "homepage": "https://github.com/JuanDenis/bootstrap_coderhouse#readme",
-  "description": ""
+  "homepage": "https://github.com/JuanDenis/coderhouse#readme",
+  "description": "Web para Servidores Comunitarios de CS:GO hosteados en Argentina."
 }
