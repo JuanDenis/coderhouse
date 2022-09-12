@@ -7,9 +7,9 @@ Keywords:
 
 Descriptions:
 -Index: "Comunidad Argentina de Servidores de CS:GO."
--VIP: "Con la membresía VIP podés tener acceso a diferentes Beneficios."
--Servidores: "Servidores que tenemos disponibles actualmente."
--Información: "Información sobre como surge la Comunidad."
+-VIP: "Con la membresía VIP podés tener acceso a diferentes beneficios dentro de nuestros servidores de CS:GO."
+-Servidores: "Servidores comunitarios de CS:GO hosteados en argentina que tenemos disponibles actualmente."
+-Información: "Información sobre como surge la Comunidad de CS:GO."
 -Contacto: "Completa el formulario de contacto para recibir ayuda."
 
 Titulos:
