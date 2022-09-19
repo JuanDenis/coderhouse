@@ -237,6 +237,15 @@ body {
   .btn-warning {
     margin: 55px; } }
 
+body::-webkit-scrollbar {
+  height: 200px;
+  background: #212529;
+  margin-bottom: 25px; }
+
+body::-webkit-scrollbar-thumb {
+  background-color: #414141;
+  border-radius: 5px; }
+
 .contenido h1 {
   font-weight: 700;
   text-transform: uppercase;

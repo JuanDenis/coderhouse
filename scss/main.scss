@@ -20,7 +20,18 @@ body {
 @import './secciones/vip';
 @import './secciones/informacion';
 @import './secciones/form';
-// Contenido
+
+//Scrollbar
+body::-webkit-scrollbar {
+    height: 200px;
+    background: $gris;
+    margin-bottom: 25px;
+}
+
+body::-webkit-scrollbar-thumb {
+   background-color: #414141;
+   border-radius: 5px;
+}
 
 .contenido{
     @extend %contenidoPrincipal;
