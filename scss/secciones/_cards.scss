@@ -1,7 +1,7 @@
 //Cards 
 .container{
     .row{
-        padding-top: 15px;
+        padding-top: 10px;
         padding-bottom: 44px;
         justify-content: space-around;
     }
@@ -33,7 +33,7 @@
 
 @media (min-width: 768px) {
     .container {
-        height: 100vh;
+        height: 80vh;
         padding-top: 120px;
         padding-bottom: 50px;
         .card:hover{

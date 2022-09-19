@@ -1,6 +1,6 @@
 // Información
 .staff{
-    height: 100vh;
+    height: 60vh;
     h2{
         @include estiloTexto($rojo, 30px);
         margin-top: 10px;
@@ -31,4 +31,12 @@
         margin: 0 auto;
         max-width: 1200px;
     }
+}
+
+@media (min-width: 768px) {
+  .avatares img:hover{
+    transform: scale(1.2);
+    transition: .2s;
+  }
+    
 }

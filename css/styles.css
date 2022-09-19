@@ -114,7 +114,7 @@ body {
     border-right-color: transparent; } }
 
 .container .row {
-  padding-top: 15px;
+  padding-top: 10px;
   padding-bottom: 44px;
   justify-content: space-around; }
 
@@ -137,15 +137,44 @@ body {
 
 @media (min-width: 768px) {
   .container {
-    height: 100vh;
+    height: 80vh;
     padding-top: 120px;
     padding-bottom: 50px; }
     .container .card:hover {
       transform: scale(1.1);
       transition: .3s; } }
 
+.grid-container {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+  .grid-container .vip {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: 30px;
+    justify-items: center; }
+    .grid-container .vip .card {
+      height: 350px;
+      background-color: #212529;
+      color: #ffff;
+      border-radius: 20px;
+      box-shadow: 5px 5px 5px RGBA(0, 0, 0, 0.45); }
+      .grid-container .vip .card img {
+        margin-top: 10px;
+        padding: 9px; }
+      .grid-container .vip .card .card-body {
+        height: 50px; }
+
+@media (max-width: 390px) {
+  .card {
+    margin-bottom: 30px; } }
+
+@media (min-width: 768px) {
+  .card:hover {
+    transform: scale(1.1);
+    transition: .3s; } }
+
 .staff {
-  height: 100vh; }
+  height: 60vh; }
   .staff h2 {
     color: #ce2b0c;
     font-size: 30px;
@@ -171,6 +200,11 @@ body {
   .staff .info {
     margin: 0 auto;
     max-width: 1200px; }
+
+@media (min-width: 768px) {
+  .avatares img:hover {
+    transform: scale(1.2);
+    transition: .2s; } }
 
 .formulario {
   background-color: RGBA(0, 0, 0, 0.85);
